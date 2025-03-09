@@ -131,7 +131,7 @@ android {
 
         create("fdroid") {
             dimension = "publishChannel"
-            versionName = "$baseVersionName-(F-Droid)"
+       //   versionName = "$baseVersionName-(F-Droid)"
         }
     }
 
