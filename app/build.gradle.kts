@@ -47,11 +47,10 @@ android {
         applicationId = "com.abhiram.savetube"
         minSdk = 24
         targetSdk = 35
-  //    versionCode = 200_000_150
-        versionCode = 1
+        versionCode = 200_000_150
         check(versionCode == currentVersionCode)
 
-        versionName = "1.0"
+        versionName = baseVersionName
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables { useSupportLibrary = true }
 
