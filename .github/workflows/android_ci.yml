@@ -1,7 +1,7 @@
 name: Android CI
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
 
 jobs:
@@ -27,3 +27,11 @@ jobs:
         run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew buildGenericRelease
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: signed-apks
+          path: app/build/outputs/apk/*/*.apk
+          if-no-files-found: error
+          retention-days: 20
