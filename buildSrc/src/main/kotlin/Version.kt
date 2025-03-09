@@ -1,4 +1,4 @@
-sealed class Version(val major: Int, val minor: Int, val patch: Int, val build: Int = 0) {
+savetubeed class Version(val major: Int, val minor: Int, val patch: Int, val build: Int = 0) {
     abstract val name: String
     abstract val code: Long
 

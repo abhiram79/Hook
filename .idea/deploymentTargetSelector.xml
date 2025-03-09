@@ -21,7 +21,7 @@
         <DropdownSelection timestamp="2024-10-04T15:47:27.481595Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/junkfood/.android/avd/Resizable_Experimental_API_VanillaIceCream.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/abhiram/.android/avd/Resizable_Experimental_API_VanillaIceCream.avd" />
             </handle>
           </Target>
         </DropdownSelection>
@@ -35,7 +35,7 @@
         <DropdownSelection timestamp="2024-10-07T18:32:33.710498Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/junkfood/.android/avd/Resizable_Experimental_API_VanillaIceCream.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/abhiram/.android/avd/Resizable_Experimental_API_VanillaIceCream.avd" />
             </handle>
           </Target>
         </DropdownSelection>
