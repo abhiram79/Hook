@@ -54,14 +54,14 @@ import com.abhiram.savetube.util.AUTO_UPDATE
 import com.abhiram.savetube.util.PreferenceUtil
 import com.abhiram.savetube.util.ToastUtil
 
-private const val releaseURL = "https://github.com/abhiram02/savetube/releases"
-private const val repoUrl = "https://github.com/abhiram02/savetube"
+private const val releaseURL = "https://github.com/abhiram/savetube/releases"
+private const val repoUrl = "https://github.com/abhiram/savetube"
 const val weblate = "https://hosted.weblate.org/engage/savetube/"
 const val YtdlpRepository = "https://github.com/yt-dlp/yt-dlp"
-private const val githubIssueUrl = "https://github.com/abhiram02/savetube/issues"
+private const val githubIssueUrl = "https://github.com/abhiram/savetube/issues"
 private const val telegramChannelUrl = "https://t.me/savetube_app"
 private const val matrixSpaceUrl = "https://matrix.to/#/#savetube-space:matrix.org"
-private const val githubSponsor = "https://github.com/sponsors/abhiram02"
+private const val githubSponsor = "https://github.com/sponsors/abhiram"
 private const val TAG = "AboutPage"
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -223,7 +223,7 @@ fun AutoUpdateUnavailableDialog(onDismissRequest: () -> Unit = {}) {
         val startIndex = text.indexOf(hyperLinkText)
         val endIndex = startIndex + hyperLinkText.length
         addUrlAnnotation(
-            UrlAnnotation("https://github.com/abhiram02/savetube/releases/latest"),
+            UrlAnnotation("https://github.com/abhiram/savetube/releases/latest"),
             start = startIndex,
             end = endIndex,
         )

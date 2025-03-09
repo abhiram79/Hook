@@ -231,7 +231,7 @@ fun SponsorsPage(onNavigateBack: () -> Unit) {
                                 verticalAlignment = Alignment.Bottom,
                             ) {
                                 AsyncImageImpl(
-                                    model = gitHubAvatar("abhiram02"),
+                                    model = gitHubAvatar("abhiram"),
                                     contentDescription = null,
                                     modifier =
                                         Modifier.size(48.dp)
@@ -253,7 +253,7 @@ fun SponsorsPage(onNavigateBack: () -> Unit) {
 
                             Button(
                                 onClick = {
-                                    uriHandler.openUri("https://github.com/sponsors/abhiram02")
+                                    uriHandler.openUri("https://github.com/sponsors/abhiram")
                                 },
                                 contentPadding = ButtonDefaults.ButtonWithIconContentPadding,
                                 modifier = Modifier.align(Alignment.End),

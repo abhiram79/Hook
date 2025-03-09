@@ -70,7 +70,7 @@ fun TroubleShootingPage(
                         modifier = Modifier,
                         text = stringResource(R.string.issue_tracker_hint),
                     )
-                    val knownIssueUrlsavetube = "https://github.com/abhiram02/savetube/issues/1399"
+                    val knownIssueUrlsavetube = "https://github.com/abhiram/savetube/issues/1399"
                     PreferenceItem(
                         title = "savetube Issue Tracker",
                         description = null,
