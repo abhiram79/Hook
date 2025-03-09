@@ -22,8 +22,8 @@ val abiFilterList = (properties["ABI_FILTERS"] as String).split(';')
 
 val abiCodes = mapOf("armeabi-v7a" to 1, "arm64-v8a" to 2, "x86" to 3, "x86_64" to 4)
 
-val baseVersionName = currentVersion.name
-val currentVersionCode = currentVersion.code.toInt()
+// val baseVersionName = currentVersion.name
+// val currentVersionCode = currentVersion.code.toInt()
 
 android {
     compileSdk = 35
@@ -47,10 +47,11 @@ android {
         applicationId = "com.abhiram.savetube"
         minSdk = 24
         targetSdk = 35
-        versionCode = 200_000_150
-        check(versionCode == currentVersionCode)
+        versionCode = 1
+        versionName = "1.0"
+  //    check(versionCode == currentVersionCode)
 
-        versionName = baseVersionName
+ //     versionName = baseVersionName
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables { useSupportLibrary = true }
 
